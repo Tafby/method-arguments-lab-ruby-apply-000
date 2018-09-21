@@ -44,6 +44,7 @@ def introduction
 end
 ```
 
+
 Now we'll run our test suite again. You should see the following error:
 
 ```bash
@@ -105,13 +106,13 @@ of the `name` argument that the method is called with.
 
 Let's fix that:
 
-```ruby
+ruby
 # lib/introduction.rb
 
 def introduction(name)
   puts "Hi, my name is #{name}."
 end
-```
+
 
 Run the test again and we should be passing the first of our two tests. Use the
 test output and the procedure we just followed to get the second test passing.
